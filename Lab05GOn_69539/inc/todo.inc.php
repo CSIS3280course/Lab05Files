@@ -13,7 +13,7 @@ function get_todolist()	{
     //
     $todos = explode("\n",$content);
 
-    var_dump($todos);
+    //var_dump($todos);
 
     return $todos;
 

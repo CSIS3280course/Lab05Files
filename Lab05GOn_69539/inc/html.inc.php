@@ -27,8 +27,8 @@ function html_debug($var){ ?>
 
 function html_todolist($todoarr)	{ 
     ?>
-    <h1>Lab 05 Part A-</h1>
-    <p>To do List</p>
+    
+    <p>To do Lists</p>
 
 <?php
 
