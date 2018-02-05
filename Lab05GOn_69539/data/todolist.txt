@@ -1,3 +1,5 @@
 This is a todo file!
 Make sure you study for your midterm!
 See instructor during office
+Buy Milk
+Do assignment

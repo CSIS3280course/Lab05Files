@@ -1,5 +1,11 @@
 <?php
 
+/*
+ * Name: Gregori Gualdron
+ * Student Number: 300269539
+ * Description: Controller for proccessing the TODOs Excercise.
+ */
+
 require("inc/config.inc.php");
 
 //This function is used to get the list and return an arrray of the items

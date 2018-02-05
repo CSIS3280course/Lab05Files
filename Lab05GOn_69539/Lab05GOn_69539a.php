@@ -1,5 +1,11 @@
 <?php
 
+/*
+ * Name: Gregori Gualdron
+ * Student Number: 300269539
+ * Description: Controller for proccessing the Todos Excercise files.
+ */
+
 //Required Files
 require("inc/html.inc.php");
 require("inc/todo.inc.php");
@@ -7,8 +13,8 @@ require("inc/todo.inc.php");
 
 //Check POST
 if($_POST){
-$newItem = $_POST['newTodo'];
-    addTodoToFile($newItem);
+    $newItem = $_POST['newTodo'];
+        addTodoToFile($newItem);
 }
 //var_dump($newItem);
 
