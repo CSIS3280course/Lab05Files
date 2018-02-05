@@ -5,8 +5,11 @@
 function html_header($header="None Set") { ?>
 <!-- Begin HTML header -->
 <HTML>
-    <HEAD><?php echo $header ?><HEAD>
+    <HEAD>
+    <title><?php echo $header ?> </title>
+    </HEAD>
     <BODY>
+    <h1><?php echo $header ?></h1>
 <!-- End HTML header -->
 <?php
 }
@@ -15,7 +18,7 @@ function html_footer() {
 ?>
 <!-- Begin HTML Footer -->
 
-</BODY>
+    </BODY>
 </HTML>
 <!-- End HTML Footer -->
 <?php }

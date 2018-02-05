@@ -13,7 +13,7 @@ $newItem = $_POST['newTodo'];
 //var_dump($newItem);
 
 //Assemble the html response
-$title = "<h1>Lab 05 Part A</h1>";
+$title = "Lab 05 Part A";
 html_header($title);
 $myArray = get_todolist();
 html_todolist($myArray);
